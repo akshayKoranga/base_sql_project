@@ -1,0 +1,16 @@
+{
+  "name": "base_project_sql",
+  "version": "1.0.0",
+  "description": "Base level project having migration, sequelize, model acrh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "akshay singh koranga",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4"
+  }
+}
