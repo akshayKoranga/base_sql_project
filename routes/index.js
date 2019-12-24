@@ -1,15 +1,12 @@
-let express = require('express');
+let express = require("express");
 
-module.exports = () => { 
+module.exports = () => {
+  let router = express();
+  let users = require("./users.js");
 
-    let router = express();
-    let users = require('./users.js');
-  
+  // let config = require('../config');  // database connection
+  router.use("/user", users());
 
-    // let config = require('../config');  // database connection
-    router.use('/user', users());
-
-
-
-    return router;
+  // this is commented code in feture branch
+  return router;
 };
