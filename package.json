@@ -11,6 +11,14 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "dotenv": "^6.1.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mssql": "^6.0.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.0.2",
+    "pg": "^7.14.0",
+    "postgrator": "^3.11.0"
+  },
+  "devDependencies": {
+    "postgrator-cli": "^3.3.0"
   }
 }

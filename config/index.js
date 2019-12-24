@@ -7,9 +7,9 @@ module.exports.localConfig = {
     dialect: 'sqlite' || 'mysql' || 'postgres',
 }
 
-module.exports.appConstants = {    
+module.exports.appConstants = {
     "bodyLimit": "50 mb",
-    "port": process.env.PROCESS_PORT    //
+    "port": 3010   //
 }
 module.exports.secretKeys = {
     "secret": process.env.SECRET_KEY
